@@ -12,28 +12,28 @@ if (typeof window !== "undefined") {
 
 const CONCEPTS = [
   {
-    title: "TV & Media Consoles",
-    desc: "Clean-lined media units with concealed wiring, acoustic backings, and integrated gaming station mounts to make your living room's entertainment wall a sleek focal point."
+    title: "Hassle-free experience",
+    desc: "We manage the entire project from end-to-end, ensuring a smooth and stress-free building journey for you."
   },
   {
-    title: "Library Bookshelves",
-    desc: "Floor-to-ceiling customized bookcases with integrated task lighting and reading nooks, designed for book lovers who want their collections on elegant display."
+    title: "Delivery on schedule",
+    desc: "Our rigorous project management ensures that your home is delivered on time, as promised."
   },
   {
-    title: "Dining Room China Servers",
-    desc: "Modernized dining room servers and credenzas with glass-paneled display cabinets, perfect for showcasing fine china, glassware, and silver."
+    title: "Multiple quality checks",
+    desc: "Every stage of construction undergoes strict quality assessments to ensure the highest standards."
   },
   {
-    title: "Custom Bar Displays",
-    desc: "Sophisticated bar areas featuring mirrored back panels, wine rack systems, and floating glass shelving with integrated LED uplighting."
+    title: "No cost overruns",
+    desc: "Transparent pricing and careful planning mean you don't have to worry about unexpected expenses."
   },
   {
-    title: "Open-Plan Room Dividers",
-    desc: "Multifunctional open shelving structures that separate areas (like living and dining) without blocking natural light, preserving spatial flow."
+    title: "Money protection",
+    desc: "We offer escrow facilities and transparent payment milestones to protect your investment."
   },
   {
-    title: "Hidden Pooja Compartments",
-    desc: "A creative display wall that conceals a traditional pooja cabinet behind slide-away panels, blending traditional rituals into modern interiors."
+    title: "Weekly progress updates",
+    desc: "Stay informed with regular reports and photos of the progress being made on your site."
   }
 ];
 
@@ -77,7 +77,7 @@ export default function DisplayPage() {
       <section className="relative w-full h-[60vh] bg-black overflow-hidden flex items-center justify-center">
         <Image
           src="https://vibrantspaces.in/wp-content/uploads/2020/12/shutterstock_645138688-2opt.jpg"
-          alt="Exclusive Display Interiors"
+          alt="Home Construction & Transformation"
           fill
           className="object-cover opacity-50 animate-kenBurnsOut"
           priority
@@ -85,10 +85,10 @@ export default function DisplayPage() {
         <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/30 to-transparent" />
         <div className="relative z-10 text-center px-6">
           <h1 className="font-serif font-light text-[3rem] md:text-[5rem] uppercase tracking-[0.05em] text-white mb-4">
-            Display & Storage
+            Construction & Transformation
           </h1>
           <p className="font-sans text-[#C5A880] tracking-[0.25em] text-xs md:text-sm uppercase">
-            Exclusive Display Interiors for Modern Living
+            Quality | Custom | Aesthetic
           </p>
         </div>
       </section>
@@ -98,23 +98,23 @@ export default function DisplayPage() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           <div ref={addToAnimate} className="opacity-0">
             <span className="text-[#C5A880] font-sans font-bold text-[0.75rem] tracking-[0.2em] uppercase mb-4 block">
-              VERSATILE SPATIAL FLOW
+              BESPOKE HOMES
             </span>
             <h2 className="font-serif text-[2.2rem] md:text-[3.2rem] leading-none text-du-dark uppercase mb-8">
-              A Face-lift for Empty Walls
+              Bespoke Homes Built From Scratch
             </h2>
             <p className="font-sans text-gray-600 font-light text-sm md:text-base leading-relaxed mb-6">
-              Over the years, display units have morphed to assume many roles. They have come to be more than just a place where you proudly show off your mementos and memoirs. Contemporary display units can be used to separate an open floor plan, or just to give a facelift to the space.
+              Vibrant Spaces combines architecture, bespoke interiors, and sustainability initiatives to offer home construction and renovation services. We conceptualize, design, and build homes that combine personalized design, smart technology, and luxury amenities to complement your lifestyle.
             </p>
             <p className="font-sans text-gray-600 font-light text-sm md:text-base leading-relaxed mb-8">
-              When planned well, the right display can enhance the theme of your interiors, whether you opt for a cozy, minimalist, traditional, rustic or contemporary look. Which makes it crucial for you to get the perfect display unit for your space.
+              Transforming an old home into a new one is an art. We help transform older homes through renovation, refurbishment, and revitalization. The goal is to retain memory and character while making the home more functional, current, and valuable.
             </p>
           </div>
 
           <div ref={addToAnimate} className="relative h-[350px] md:h-[500px] w-full bg-gray-100 overflow-hidden opacity-0">
             <Image
               src="https://vibrantspaces.in/wp-content/uploads/2024/04/04.jpg"
-              alt="Custom Room Divider Display"
+              alt="Home Construction & Renovation"
               fill
               className="object-cover"
             />
@@ -127,10 +127,10 @@ export default function DisplayPage() {
         <div className="max-w-7xl mx-auto px-8 md:px-16">
           <div className="text-center mb-16">
             <span ref={addToAnimate} className="text-[#C5A880] font-sans font-bold text-[0.75rem] tracking-[0.2em] uppercase mb-4 block opacity-0">
-              MODULAR FLEXIBILITY
+              WHY CHOOSE US
             </span>
             <h2 ref={addToAnimate} className="font-serif text-3xl md:text-5xl uppercase opacity-0">
-              Display Concepts
+              Construction Benefits
             </h2>
           </div>
 
@@ -152,15 +152,15 @@ export default function DisplayPage() {
       {/* ── CTA ── */}
       <section className="py-20 text-center bg-black text-white px-8">
         <div ref={addToAnimate} className="max-w-3xl mx-auto opacity-0">
-          <h2 className="font-serif text-2xl md:text-4xl uppercase mb-6">Create Your Focal Point</h2>
+          <h2 className="font-serif text-2xl md:text-4xl uppercase mb-6">Build Your Dream Home</h2>
           <p className="font-sans text-gray-400 font-light text-sm md:text-base leading-relaxed mb-8">
-            Talk to some of the best interior decorators in Chennai to nail down the perfect display piece for your home.
+            Experience transparency at every stage and a 5-year service warranty on your new home.
           </p>
           <Link
             href="/contact"
             className="inline-block bg-white text-black font-semibold text-xs tracking-[0.25em] uppercase px-10 py-5 hover:bg-[#C5A880] hover:text-white transition-colors duration-300 rounded-none"
           >
-            Design Display Unit
+            Schedule a Consultation
           </Link>
         </div>
       </section>

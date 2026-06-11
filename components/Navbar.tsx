@@ -6,36 +6,33 @@ import { motion, AnimatePresence } from "framer-motion";
 
 const FLOORING_COLS = [
   {
-    title: "Hardwood Flooring",
+    title: "Residential Interiors",
     items: [
-      { name: "Guild", href: "https://duchateau.com/floors/guild/" },
-      { name: "Signature", href: "https://duchateau.com/floors/signature/" },
-      { name: "Martyn Lawrence Bullard", href: "https://duchateau.com/martyn-lawrence-bullard-collection/" },
-      { name: "Atelier", href: "https://duchateau.com/atelier-series/" },
+      { name: "Full Home Interiors", href: "/flooring" },
+      { name: "Luxury Interiors", href: "/our-homes" },
+      { name: "Kitchens", href: "/kitchen" },
+      { name: "Wardrobes", href: "/wardrobe" },
     ],
   },
   {
-    title: "Composite Flooring",
+    title: "Construction & More",
     items: [
-      { name: "Guild", href: "https://duchateau.com/floors/guild/" },
-      { name: "Collections", href: "https://duchateau.com/floors/guild/composite/portfolio/" },
+      { name: "Home Construction", href: "/display" },
+      { name: "Transformation", href: "/display" },
     ],
   },
 ];
 
 const WALL_COLS = [
   {
-    title: "Wall Covering Collections",
+    title: "Commercial & Specialized",
     items: [
-      { name: "Zen Collection", href: "https://duchateau.com/zen-collection/" },
-      { name: "Motif Collection", href: "https://duchateau.com/motif-collection/" },
-      { name: "Ligne Collection", href: "https://duchateau.com/ligne-collection/" },
-      { name: "Inceptiv Collection", href: "https://duchateau.com/inceptiv-collection/" },
-      { name: "Moderne Collection", href: "https://duchateau.com/moderne-collection/" },
-      { name: "Pictura Collection", href: "https://duchateau.com/pictura-collection/" },
-      { name: "Intervals Collection", href: "https://duchateau.com/intervals-collection/" },
-      { name: "Celestio Collection", href: "https://duchateau.com/celestio-collection/" },
-      { name: "Celestio Legno Collection", href: "https://duchateau.com/celestio-legno-collection/" },
+      { name: "Commercial Interiors", href: "/commercial-interiors" },
+      { name: "Retail Interiors", href: "/services" },
+      { name: "Hospitality", href: "/services" },
+      { name: "Solar Solutions", href: "/services" },
+      { name: "Landscape Design", href: "/services" },
+      { name: "Online Design Studio", href: "/contact" },
     ],
   },
 ];
@@ -113,39 +110,39 @@ export default function Navbar() {
             {/* Desktop Navigation Items */}
             <div className="hidden lg:flex items-center space-x-7 font-heading text-[11px] tracking-[0.2em] uppercase font-normal">
               <Link
-                href="https://duchateau.com/floors/guild/"
+                href="/our-homes"
                 onMouseEnter={() => handleTabHover("flooring")}
                 className="py-2 hover:opacity-60 transition-opacity"
               >
-                Flooring
+                Our Homes
               </Link>
               <Link
-                href="https://duchateau.com/walls-ceilings/"
+                href="/services"
                 onMouseEnter={() => handleTabHover("wall-covering")}
                 className="py-2 hover:opacity-60 transition-opacity"
               >
-                Wall Covering
+                Services
               </Link>
               <Link
-                href="https://duchateau.com/kitchens-baths/"
+                href="/factory"
                 onMouseEnter={() => handleTabHover(null)}
                 className="py-2 hover:opacity-60 transition-opacity"
               >
-                Kitchen + Bath
+                Factory
               </Link>
               <Link
-                href="https://duchateau.com/wardrobe/"
+                href="/commercial-interiors"
                 onMouseEnter={() => handleTabHover(null)}
                 className="py-2 hover:opacity-60 transition-opacity"
               >
-                Wardrobe
+                Commercial
               </Link>
               <Link
-                href="https://duchateau.com/outdoor/"
+                href="/about"
                 onMouseEnter={() => handleTabHover(null)}
                 className="py-2 hover:opacity-60 transition-opacity"
               >
-                Outdoor
+                About
               </Link>
             </div>
           </div>
@@ -155,7 +152,7 @@ export default function Navbar() {
             <Link href="/" className="flex items-center">
               <img
                 src={isLightNav ? "/assets/du-logo-mark.svg" : "/assets/du-logo-mark-white.svg"}
-                alt="Duchateau"
+                alt="Vibrant Spaces"
                 className="h-[24px] w-[22px] transition-all duration-300"
               />
             </Link>
@@ -164,43 +161,30 @@ export default function Navbar() {
           {/* Right: Actions / Utilities */}
           <div className="flex items-center justify-end space-x-6">
             <div className="hidden xl:flex items-center space-x-6 font-heading text-[11px] tracking-[0.2em] uppercase">
-              <a
-                href="https://duchateau.com/get-started/"
+              <Link
+                href="/contact"
                 className="hover:opacity-60 transition-opacity"
               >
-                Where to Buy
-              </a>
-              <a
-                href="https://duchateau.com/care-products/"
-                className="hover:opacity-60 transition-opacity"
-              >
-                Shop Care Products
-              </a>
+                Schedule a Consultation
+              </Link>
             </div>
 
             {/* Icon buttons */}
             <div className="flex items-center space-x-4">
-              <a href="https://duchateau.com/?s=" aria-label="Search" className="hover:opacity-60 transition-opacity">
+              <button aria-label="Search" className="hover:opacity-60 transition-opacity">
                 <img
                   src={isLightNav ? "/assets/search.svg" : "/assets/search-white.svg"}
                   alt="Search"
                   className="w-3.5 h-3.5"
                 />
-              </a>
-              <a href="https://duchateau.com/my-account/" aria-label="Account" className="hover:opacity-60 transition-opacity">
+              </button>
+              <Link href="/contact" aria-label="Account" className="hover:opacity-60 transition-opacity">
                 <img
                   src={isLightNav ? "/assets/du-account-icon.svg" : "/assets/du-account-icon-white.svg"}
                   alt="Account"
                   className="w-3.5 h-3.5"
                 />
-              </a>
-              <a href="https://duchateau.com/cart/" aria-label="Cart" className="hover:opacity-60 transition-opacity">
-                <img
-                  src={isLightNav ? "/assets/du-shopping-cart-icon.svg" : "/assets/du-shopping-cart-icon-white.svg"}
-                  alt="Cart"
-                  className="w-[12px] h-[13px]"
-                />
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -226,12 +210,12 @@ export default function Navbar() {
                       <ul className="flex flex-col space-y-2.5">
                         {col.items.map((item, itemIdx) => (
                           <li key={itemIdx}>
-                            <a
+                            <Link
                               href={item.href}
                               className="font-serif text-lg text-black hover:text-black/60 transition-colors"
                             >
                               {item.name}
-                            </a>
+                            </Link>
                           </li>
                         ))}
                       </ul>
@@ -247,33 +231,33 @@ export default function Navbar() {
                       <ul className="grid grid-cols-2 gap-y-2.5 gap-x-8">
                         {col.items.map((item, itemIdx) => (
                           <li key={itemIdx}>
-                            <a
+                            <Link
                               href={item.href}
                               className="font-serif text-lg text-black hover:text-black/60 transition-colors"
                             >
                               {item.name}
-                            </a>
+                            </Link>
                           </li>
                         ))}
                       </ul>
                     </div>
                   ))}
 
-                {/* Promotional side panel - Duchateau style */}
+                {/* Promotional side panel - Vibrant style */}
                 <div className="col-span-2 lg:col-span-1 flex flex-col justify-between p-6 bg-beige/40 rounded-sm">
                   <div className="space-y-2">
-                    <span className="font-heading text-[9px] tracking-widest uppercase text-black/45">Featured Selection</span>
-                    <h5 className="font-serif text-xl tracking-wide leading-tight">The Doorway Into Duchateau</h5>
+                    <span className="font-heading text-[9px] tracking-widest uppercase text-black/45">Bespoke Design</span>
+                    <h5 className="font-serif text-xl tracking-wide leading-tight">Crafting Your Dream Home</h5>
                     <p className="font-sans text-xs text-black/60 font-light leading-relaxed">
-                      Discover the Guild Series, hand-crafted flooring details engineered for modern luxury.
+                      Experience luxury home interiors in Chennai with a team that blends elegance, style, and craftsmanship.
                     </p>
                   </div>
-                  <a
-                    href="https://duchateau.com/floors/guild/"
+                  <Link
+                    href="/contact"
                     className="font-heading text-[10px] tracking-widest uppercase underline underline-offset-4 mt-6 hover:opacity-75"
                   >
-                    Explore Guild
-                  </a>
+                    Get Started
+                  </Link>
                 </div>
               </div>
             </motion.div>
@@ -293,39 +277,32 @@ export default function Navbar() {
           >
             <div className="flex flex-col space-y-6">
               {[
-                { name: "Flooring", href: "https://duchateau.com/floors/guild/" },
-                { name: "Wall Covering", href: "https://duchateau.com/walls-ceilings/" },
-                { name: "Kitchen + Bath", href: "https://duchateau.com/kitchens-baths/" },
-                { name: "Wardrobe", href: "https://duchateau.com/wardrobe/" },
-                { name: "Outdoor", href: "https://duchateau.com/outdoor/" },
+                { name: "Our Homes", href: "/our-homes" },
+                { name: "Services", href: "/services" },
+                { name: "Factory", href: "/factory" },
+                { name: "Commercial", href: "/commercial-interiors" },
+                { name: "About", href: "/about" },
               ].map((item, idx) => (
                 <div key={idx} className="border-b border-black/5 pb-4">
-                  <a
+                  <Link
                     href={item.href}
                     onClick={() => setMobileMenuOpen(false)}
                     className="font-serif text-3xl font-light tracking-wide hover:opacity-60 transition-opacity"
                   >
                     {item.name}
-                  </a>
+                  </Link>
                 </div>
               ))}
             </div>
 
             <div className="flex flex-col space-y-4 pt-12">
-              <a
-                href="https://duchateau.com/get-started/"
+              <Link
+                href="/contact"
                 onClick={() => setMobileMenuOpen(false)}
                 className="font-heading text-xs tracking-widest uppercase hover:opacity-60 transition-opacity"
               >
-                Where to Buy
-              </a>
-              <a
-                href="https://duchateau.com/care-products/"
-                onClick={() => setMobileMenuOpen(false)}
-                className="font-heading text-xs tracking-widest uppercase hover:opacity-60 transition-opacity"
-              >
-                Shop Care Products
-              </a>
+                Schedule a Consultation
+              </Link>
             </div>
           </motion.div>
         )}

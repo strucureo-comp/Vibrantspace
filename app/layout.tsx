@@ -5,8 +5,8 @@ import Footer from "@/components/Footer";
 import SmoothScroll from "@/components/SmoothScroll";
 
 export const metadata: Metadata = {
-  title: "DUCHATEAU® | Hardwood Flooring, Wall Coverings & Luxury Interiors",
-  description: "Duchateau designs and manufactures fine hardwood flooring, luxury wall coverings, custom closets, and high-end cabinetry.",
+  title: "Vibrant Spaces | Luxury Home Interiors & Construction in Chennai",
+  description: "Vibrant Spaces is a multidisciplinary design and build company in Chennai, offering luxury interior design, architecture, construction, and sustainable home solutions.",
 };
 
 export default function RootLayout({

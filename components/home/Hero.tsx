@@ -13,7 +13,7 @@ const IMAGES = [
 export default function Hero() {
   const [currentIdx, setCurrentIdx] = useState(0);
   const containerRef = useRef<HTMLElement>(null);
-  
+
   // Parallax scroll on text
   const { scrollYProgress } = useScroll({
     target: containerRef,
@@ -49,44 +49,31 @@ export default function Hero() {
           >
             <img
               src={IMAGES[currentIdx]}
-              alt="Duchateau Luxury Interior"
+              alt="Vibrant Spaces Luxury Interior"
               className="w-full h-full object-cover animate-kenBurnsOut"
             />
           </motion.div>
         </AnimatePresence>
-        
+
         {/* Subtle Dark Overlay */}
         <div className="absolute inset-0 bg-black/30 z-10" />
       </div>
 
       {/* Center Details Overlay (Shield + Headings) */}
-      <motion.div 
+      <motion.div
         style={{ y: logoY }}
         className="relative z-20 flex-1 flex flex-col justify-center items-center text-center px-6 pt-[40px]"
       >
-        <img
-          src="/assets/du-logo-mark-white.svg"
-          alt="Duchateau Mark"
-          className="h-14 w-auto mb-3 opacity-90 animate-fadeInDown"
-        />
-        
-        <h2 className="text-white font-serif font-normal uppercase tracking-[-0.2rem] text-[18vw] md:text-[14vw] lg:text-[11vw] xl:text-[12em] leading-[0.9em] animate-fadeInUp">
-          GUILD<span className="text-[0.1em] relative ml-0.5 inline-block font-sans" style={{ top: "-5.5em" }}>®</span>
-        </h2>
-        
-        <p className="text-white font-serif font-normal tracking-[0rem] uppercase mt-1 text-[4vw] md:text-[2.4vw] lg:text-[2vw] xl:text-[2em] leading-[0.9em] animate-fadeInUp-slow">
-          The doorway into duchateau
-        </p>
       </motion.div>
 
-      {/* Bottom Large Watermark SVG Logo */}
-      <div className="relative z-20 w-full overflow-visible flex justify-center">
-        <motion.img
+      {/* Bottom Large Watermark - Sized to fit screen and prevent cropping */}
+      <div className="relative z-20 w-full flex justify-center">
+        <motion.h2
           style={{ y: textY }}
-          src="/assets/du-logo-white.svg"
-          alt="DUCHATEAU"
-          className="w-full max-w-[2560px] h-[77px] md:h-[151px] object-contain select-none opacity-95 pointer-events-none relative -bottom-2 md:-bottom-4"
-        />
+          className="text-[9.5vw] font-sans font-black uppercase tracking-[-0.02em] leading-none text-white whitespace-nowrap select-none opacity-95 pointer-events-none relative -bottom-2 md:-bottom-4"
+        >
+          Vibrant Spaces
+        </motion.h2>
       </div>
 
       {/* Bottom Gradient Fade */}

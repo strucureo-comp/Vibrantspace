@@ -13,6 +13,18 @@ if (typeof window !== "undefined") {
 
 const TESTIMONIALS = [
   {
+    name: "Dr. Yugraj Singh Yadava",
+    role: "Director, Bay of Bengal Programme, World Bank Ocean Partnership",
+    text: "Vibrant Interiors completed turnkey interiors for our sea-facing luxury apartment in Marina Bay. The journey from concept to implementation was seamless and professional.",
+    featured: true
+  },
+  {
+    name: "Akshay & Sudharma",
+    role: "Classical Dancer & Mridangam Artist",
+    text: "Our home was designed around our artistic lives, beliefs, and inspirations. Vibrant Spaces created a space that truly supports our art forms and spiritual satisfaction.",
+    featured: true
+  },
+  {
     name: "Padma Bhushan AR. Rahman",
     role: "Oscar-Winning Music Director",
     text: "Our home has come out very well. God bless the entire Vibrant Team. Keep it up!",

@@ -12,6 +12,8 @@ if (typeof window !== "undefined") {
 }
 
 const HOMES = [
+  { name: "The Rajesh Gupta Residence", style: "Sophisticated Earthy Modern (9600 sq. ft.)", location: "Chennai" },
+  { name: "The Jayamurugan Residence", style: "Elevated Family Lifestyle (6000 sq. ft.)", location: "Chennai" },
   { name: "Mrs. Devi's Residence", style: "Traditional Fusion", location: "Anna Nagar" },
   { name: "Mr. Edward Prabhakar", style: "Contemporary Modern", location: "Nungambakkam" },
   { name: "Mr. Badri Nivas", style: "Minimalist Luxury", location: "Adyar" },
@@ -90,7 +92,7 @@ export default function OurHomesPage() {
             Vibrant Homes
           </h1>
           <p className="font-sans text-[#C5A880] tracking-[0.2em] text-xs md:text-sm uppercase max-w-2xl mx-auto animate-fadeInUp anim-delay-200">
-            A Sneak Peek Into Our 500+ Completed Residential Portfolios
+            A Sneak Peek Into Our 2500+ Completed Residential Portfolios
           </p>
         </div>
       </section>
@@ -136,11 +138,16 @@ export default function OurHomesPage() {
               <div className="relative h-[300px] w-full overflow-hidden bg-gray-200">
                 <Image
                   src={
-                    idx % 3 === 0
-                      ? "https://vibrantspaces.in/wp-content/uploads/2024/04/01.jpg"
-                      : idx % 3 === 1
-                      ? "https://vibrantspaces.in/wp-content/uploads/2024/04/02.jpeg"
-                      : "https://vibrantspaces.in/wp-content/uploads/2024/04/03.jpg"
+                    idx % 10 === 0 ? "/assets/redesign/works/010-DSC2680-1.jpg" :
+                    idx % 10 === 1 ? "/assets/redesign/works/019-shutterstock_645138688-2.jpg" :
+                    idx % 10 === 2 ? "/assets/redesign/works/004-1-2.jpg" :
+                    idx % 10 === 3 ? "/assets/redesign/works/005-2-2.jpg" :
+                    idx % 10 === 4 ? "/assets/redesign/works/006-3-1.jpg" :
+                    idx % 10 === 5 ? "/assets/redesign/works/007-4-3.jpg" :
+                    idx % 10 === 6 ? "/assets/redesign/works/072-01.jpg" :
+                    idx % 10 === 7 ? "/assets/redesign/works/073-02.jpeg" :
+                    idx % 10 === 8 ? "/assets/redesign/works/074-03.jpg" :
+                    "/assets/redesign/works/075-04.jpg"
                   }
                   alt={home.name}
                   fill

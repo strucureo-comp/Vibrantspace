@@ -82,7 +82,7 @@ export default function WallCoveringPage() {
         <div ref={heroRef} className="absolute inset-0 will-change-transform">
           <Image
             src="https://duchateau.com/wp-content/uploads/2025/10/du-wall-covering-motif.webp"
-            alt="DUCHATEAU Wall Coverings"
+            alt="Vibrant Spaces Wall Coverings"
             fill
             className="object-cover opacity-70"
             priority
@@ -92,7 +92,7 @@ export default function WallCoveringPage() {
         <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent" />
         <div className="relative z-10 px-8 md:px-16 pb-16 max-w-4xl">
           <p className="text-[#C5A880] font-semibold text-[0.7rem] tracking-[0.3em] uppercase mb-4">
-            DU WALL COVERING
+            Vibrant Spaces Wall Covering
           </p>
           <h1 className="font-serif font-light text-[3.5rem] md:text-[5.5rem] uppercase leading-none text-white mb-6">
             Wall<br />Coverings
@@ -116,7 +116,7 @@ export default function WallCoveringPage() {
           </div>
           <div>
             <p className="font-sans text-gray-600 font-light text-sm md:text-base leading-relaxed mb-5">
-              DUCHATEAU Wall Coverings bring the warmth and texture of natural wood to vertical surfaces — transforming ordinary walls into extraordinary design statements.
+              Vibrant Spaces Wall Coverings bring the warmth and texture of natural wood to vertical surfaces — transforming ordinary walls into extraordinary design statements.
             </p>
             <p className="font-sans text-gray-600 font-light text-sm md:text-base leading-relaxed">
               Crafted from the same sustainably sourced European White Oak as our iconic flooring, every panel is a harmonious extension of your interior narrative.
@@ -278,7 +278,7 @@ export default function WallCoveringPage() {
           Transform Your Space
         </h2>
         <p className="font-sans text-gray-600 font-light text-sm md:text-base leading-relaxed mb-12 max-w-xl mx-auto">
-          Explore our Wall Covering collections at a DUCHATEAU showroom or authorized retailer near you. Request samples to see and feel the quality first-hand.
+          Explore our Wall Covering collections at a Vibrant Spaces showroom or authorized retailer near you. Request samples to see and feel the quality first-hand.
         </p>
         <div className="flex flex-wrap gap-4 justify-center">
           <Link

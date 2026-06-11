@@ -49,7 +49,7 @@ export default function AboutPage() {
       {/* ── Hero Section ── */}
       <section className="relative w-full h-[65vh] bg-black overflow-hidden flex items-center justify-center">
         <Image
-          src="https://vibrantspaces.in/wp-content/uploads/2020/12/shutterstock_645138688-2opt.jpg"
+          src="/assets/redesign/about/014-About1.png"
           alt="About Vibrant Spaces"
           fill
           className="object-cover opacity-60 animate-kenBurnsOut"
@@ -77,19 +77,19 @@ export default function AboutPage() {
           </h2>
           <div className="font-sans text-gray-600 font-light space-y-6 text-sm md:text-base leading-relaxed">
             <p>
-              We are into a multi-disciplinary practice from architecture, interior design, construction and a state of the art production factory with German machineries, a team of professionals drawn from every team. We have a solid base in architecture, building a strong reputation across numerous typologies— including office, education, residential, healthcare, science and retail projects.
+              Vibrant Spaces is a multidisciplinary practice working across architecture, interior design, construction, and factory-made production. The company has experience across residential, office, education, healthcare, science, and retail projects.
             </p>
             <p>
-              Over the past ten years we have established an enviable reputation for creating exquisitely crafted homes and interiors, to meet and exceed the expectations of the most discerning clients. Now with the new venture of world class factory set up, our approach seeks to deliver the highest design standards, which encompass the finest aesthetic approach with and instilled longevity. We thrive on providing a personable service that delivers the highest standard of finishes to bring your design to reality.
+              The company has built a reputation for crafted homes and interiors that serve discerning clients. Its production factory supports higher standards of finish, longevity, and execution quality. We thrive on providing a personable service that delivers the highest standard of finishes to bring your design to reality.
             </p>
             <p>
-              Your vision of how your house should be needs the hands of experts to be sculpted into reality. With over 2500 projects under our belt, we understand your needs and tastes to fulfill what has been a lifelong dream. We go beyond the promise of expertise and also deliver on timeliness, transparency and trustability.
+              Vibrant Spaces helps clients turn the vision of a home into reality through expertise, timeliness, transparency, and trust. With over 2500 projects under our belt, we understand your needs and tastes to fulfill what has been a lifelong dream.
             </p>
           </div>
         </div>
         <div ref={addToAnimate} className="relative h-[400px] md:h-[550px] w-full bg-gray-100 overflow-hidden opacity-0">
           <Image
-            src="https://vibrantspaces.in/wp-content/uploads/2024/04/01.jpg"
+            src="/assets/redesign/about/090-Group-photo_compressed-1024x525.jpg"
             alt="Vibrant Spaces Office"
             fill
             className="object-cover"
@@ -114,16 +114,16 @@ export default function AboutPage() {
             <div ref={addToAnimate} className="flex flex-col items-center text-center opacity-0 group">
               <div className="relative w-48 h-48 rounded-full overflow-hidden mb-8 border border-white/10 group-hover:border-[#C5A880]/50 transition-colors duration-500">
                 <Image
-                  src="https://vibrantspaces.in/wp-content/uploads/2019/09/oneside-01.png"
+                  src="/assets/redesign/about/001-1.1-01.png"
                   alt="Venkat Krishnan"
                   fill
                   className="object-cover transition-transform duration-700 group-hover:scale-105"
                 />
               </div>
               <h3 className="font-serif text-2xl uppercase mb-2">Venkat Krishnan</h3>
-              <p className="font-sans text-xs tracking-widest text-[#C5A880] uppercase mb-6">CEO & Founder</p>
+              <p className="font-sans text-xs tracking-widest text-[#C5A880] uppercase mb-6">Company Head</p>
               <p className="font-sans text-sm text-gray-400 font-light leading-relaxed max-w-md">
-                Leading from the front, our Head Venkat Krishnan is all about maximising the value that we deliver to our clients. He is tireless in his approach, clinical with his methods, and always available to guide the team when his insights are needed. Sustainability, quality and value are his guiding principles.
+                Focused on maximizing client value through sustainability, quality, and practical design. He is tireless in his approach, clinical with his methods, and always available to guide the team when his insights are needed. Sustainability, quality and value are his guiding principles.
               </p>
             </div>
 
@@ -131,7 +131,7 @@ export default function AboutPage() {
             <div ref={addToAnimate} className="flex flex-col items-center text-center opacity-0 group">
               <div className="relative w-48 h-48 rounded-full overflow-hidden mb-8 border border-white/10 group-hover:border-[#C5A880]/50 transition-colors duration-500">
                 <Image
-                  src="https://vibrantspaces.in/wp-content/uploads/2019/09/marbel.jpg"
+                  src="/assets/redesign/about/069-Gauthami-Lanscape-Preview-1-1024x576.png"
                   alt="Dr. Gautami Tadimalla"
                   fill
                   className="object-cover transition-transform duration-700 group-hover:scale-105"
@@ -140,7 +140,7 @@ export default function AboutPage() {
               <h3 className="font-serif text-2xl uppercase mb-2">Dr. Gautami Tadimalla</h3>
               <p className="font-sans text-xs tracking-widest text-[#C5A880] uppercase mb-6">Partner & Creative Consultant</p>
               <p className="font-sans text-sm text-gray-400 font-light leading-relaxed max-w-md">
-                Smt. Gautami Tadimalla is a prolific presence on the silver screen, director, photographer, activist, and social worker. As an interior designer, her creative flair has elevated some of our high-end projects to true perfection, bringing unmatched expertise and an eye for detail.
+                A film personality, director, photographer, activist, and interior designer whose creative input has contributed to high-end projects. Her creative flair has elevated some of our high-end projects to true perfection, bringing unmatched expertise and an eye for detail.
               </p>
             </div>
           </div>
@@ -152,7 +152,7 @@ export default function AboutPage() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           <div ref={addToAnimate} className="relative h-[350px] md:h-[500px] w-full bg-gray-100 overflow-hidden order-last lg:order-first opacity-0">
             <Image
-              src="https://vibrantspaces.in/wp-content/uploads/2024/04/02.jpeg"
+              src="/assets/redesign/about/013-About01-18.png"
               alt="Vibrant Spaces Team"
               fill
               className="object-cover"
@@ -166,7 +166,7 @@ export default function AboutPage() {
               Craftsmanship & Precision Driven
             </h2>
             <p className="font-sans text-gray-600 font-light text-sm md:text-base leading-relaxed mb-6">
-              Vibrant Spaces is powered by a team of experienced professionals, each bringing a unique skill set to the table. From our skilled carpenters who craft bespoke furniture pieces to our talented artisans who add intricate finishing touches, every project is executed with precision and care.
+              Vibrant Spaces is powered by experienced professionals, including carpenters, artisans, designers, engineers, and project execution specialists. The team focuses on precision, care, function, finish quality, and on-time delivery.
             </p>
             <p className="font-sans text-gray-600 font-light text-sm md:text-base leading-relaxed">
               Driven by passion and a shared commitment to excellence, our team works seamlessly together, ensuring that each design is not only functional but also a work of art. The company is run like a well-oiled machine, with every member playing a key role in delivering exceptional results, on time and on budget.
@@ -209,27 +209,28 @@ export default function AboutPage() {
             </div>
 
             <div ref={addToAnimate} className="bg-white p-8 md:p-12 shadow-md opacity-0">
-              <h3 className="font-serif text-2xl uppercase mb-6 text-black">Eco-Friendly Home Steps</h3>
+              <h3 className="font-serif text-2xl uppercase mb-6 text-black">Eco-Friendly Home Design</h3>
+              <p className="font-sans text-xs text-gray-500 mb-6 font-light uppercase tracking-widest">Materials & Methods</p>
               <ul className="space-y-4 text-sm text-gray-600 font-sans font-light">
                 <li className="flex items-start gap-3">
                   <span className="text-[#C5A880] font-bold">01</span>
-                  <span>Allow ample sunlight to enter the space & use energy-efficient lighting.</span>
+                  <span><strong>Reclaimed Materials:</strong> Reclaimed wood for flooring, kitchen cabinets, and cladding. Recycled glass and ceramic tiles.</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-[#C5A880] font-bold">02</span>
-                  <span>Use organic, natural, and low Volatile Organic Compounds (VOC) materials.</span>
+                  <span><strong>Natural Treatments:</strong> Water-based paints, natural clay paste, and plant-fiber wall coverings.</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-[#C5A880] font-bold">03</span>
-                  <span><strong>Reclaimed Wood:</strong> Refinished wood for flooring, modular kitchen cabinets, and wall cladding.</span>
+                  <span><strong>Renewable Flooring:</strong> Cork, rubber, and bamboo flooring options.</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-[#C5A880] font-bold">04</span>
-                  <span><strong>Window Treatments:</strong> Blinds and curtains made from 100% renewable bamboo, grass flax, or fabric blinds.</span>
+                  <span><strong>Sustainable Fabrics:</strong> Organic linen, cotton, bamboo, soy fiber, bark cloth, wool, silk, and cashmere.</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-[#C5A880] font-bold">05</span>
-                  <span><strong>Sustainable Fabrics:</strong> Organic linen, cotton, bamboo, soy fiber, wool, silk, and cashmere.</span>
+                  <span><strong>Energy Efficiency:</strong> Energy-efficient windows with ventilation and low-VOC products.</span>
                 </li>
               </ul>
             </div>

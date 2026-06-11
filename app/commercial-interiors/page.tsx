@@ -13,46 +13,46 @@ if (typeof window !== "undefined") {
 const PROJECTS = [
   {
     title: "AgniKul Cosmos HQ",
-    desc: "A futuristic 13,000 sq. ft headquarters at IIT Madras for India's aerospace innovators. Blends sleek Star Trek-like aesthetics with high-performance workspaces using steel, glass, marble, and mosaic details.",
-    img: "https://vibrantspaces.in/wp-content/uploads/2024/04/04.jpg",
-    badge: "Aerospace"
+    desc: "A futuristic 13,000 sq. ft headquarters at IIT Madras. Blends sleek Star Trek-like aesthetics with high-performance workspaces using materials that reflect the aerospace brand. Inaugurated by senior leaders including Shri N. Chandrasekaran and Shri S. Somanath.",
+    img: "/assets/redesign/works/070-Agnikul-Home-Carousel-scaled.jpg",
+    badge: "Aerospace & Tech"
   },
   {
-    title: "Allison Transmission India",
-    desc: "A function-forward corporate headquarters and executive dining lounge. Features neutral colors, warm wood accents, open-plan acoustical desks, and a specialized industrial kitchen serving over 1,000 employees.",
-    img: "https://vibrantspaces.in/wp-content/uploads/2024/04/02.jpeg",
-    badge: "Corporate Office"
+    title: "Make My Chairs, Kilpauk",
+    desc: "A customizable chair retail store designed in collaboration with Srishti Design. Display products clearly while creating a spacious, welcoming, and colorful experience for customers.",
+    img: "/assets/redesign/commercial/015-MakeMyChairs.jpg",
+    badge: "Retail"
   },
   {
-    title: "Shiv Nadar School Campus",
-    desc: "Turnkey execution of classrooms and public spaces designed by Padma Bhushan Dr. B. V. Doshi. Built around a green, sustainable theme using reclaimed wood from old ships, earning accolades from L&T Constructions.",
-    img: "https://vibrantspaces.in/wp-content/uploads/2024/04/01.jpg",
-    badge: "Education"
+    title: "Kuber Mantra, Kilpauk",
+    desc: "A 100-seater, 3500 sq. ft. restaurant designed in collaboration with Srishti Design. Accommodates many customers while preserving a family-friendly atmosphere and privacy.",
+    img: "/assets/redesign/commercial/001-KuberMantra.jpg",
+    badge: "Hospitality"
   },
   {
-    title: "Statue of Unity Interiors",
-    desc: "Vibrant Spaces was the only South Indian interior design firm shortlisted to draft the visitor experience galleries and internal layouts of this historic monument, balancing massive scale with human comfort.",
-    img: "https://vibrantspaces.in/wp-content/uploads/2024/12/shutterstock_622608683.webp",
-    badge: "Public Monument"
+    title: "Bikers Den, Royapettah",
+    desc: "A community-focused space for bikers, using lighting and design to create a sense of atmosphere, mystery, and belonging. A hub for the biking community in Chennai.",
+    img: "/assets/redesign/commercial/021-BikersDen.jpg",
+    badge: "Retail & Community"
   },
   {
-    title: "ESAB Corporate Office",
-    desc: "A 50-seater office space in Chennai for a $2.84 billion Swedish-American global automation leader. Rooted in simplicity, local Chennai character, and robust functionality.",
-    img: "https://vibrantspaces.in/wp-content/uploads/2020/12/shutterstock_645138688-2opt.jpg",
-    badge: "Corporate Office"
+    title: "Kites, Anna Nagar",
+    desc: "A vegetarian restaurant designed in collaboration with Srishti Design. A welcoming, well-lit space for friends, family, and date nights, with an ambience suited for social sharing.",
+    img: "/assets/redesign/commercial/007-KitesAnnaNagar.jpg",
+    badge: "Hospitality"
   },
   {
-    title: "Steel Shoppe Headquarters",
-    desc: "A bold, industrial-themed office space merging raw concrete textures, exposed mesh, raw metals, and vibrant spatial yellow bands mapping Spatial flow.",
-    img: "https://vibrantspaces.in/wp-content/uploads/2019/09/oneside-01.png",
-    badge: "Industrial Office"
+    title: "Access Health Care Cafe",
+    desc: "A warm, well-lit place of rest inside Access Health Care, designed for patients, attendants, and doctors to find reprieve and comfort.",
+    img: "/assets/redesign/commercial/023-AccessHealthcare Ambattur.jpg",
+    badge: "Healthcare Hospitality"
   }
 ];
 
 const OTHERS = [
-  "JSW Corporate Office", "Bikers Den (Royapettah Biking Hub)", "Nizam Marriage Hall (Tanjore Vastu-compliant Hall)",
-  "Kites Restaurant", "Chennai Smart City Limited", "Doctor Saravanan Hospital (Tindivanam)",
-  "Seashell Logistics Office", "Digital Track Solutions", "Access Healthcare Services"
+  "Shiv Nadar School Campus", "Allison Transmission India", "ESAB Corporate Office",
+  "Indigo Fertility", "British Deputy High Commission Landscape", "Taj Fisherman's Cove Landscape",
+  "FLSmidth Corporate Office Landscape", "JSW Corporate Office", "Chennai Smart City Limited"
 ];
 
 export default function CommercialInteriorsPage() {
@@ -94,7 +94,7 @@ export default function CommercialInteriorsPage() {
       {/* ── Hero ── */}
       <section className="relative w-full h-[60vh] bg-black overflow-hidden flex items-center justify-center">
         <Image
-          src="https://vibrantspaces.in/wp-content/uploads/2024/04/04.jpg"
+          src="/assets/redesign/commercial/011-Retail02-18.png"
           alt="Commercial and Retail Interiors"
           fill
           className="object-cover opacity-60 animate-kenBurnsOut"
@@ -117,7 +117,7 @@ export default function CommercialInteriorsPage() {
           Workspaces Infused With Purpose & Identity
         </h2>
         <p ref={addToAnimate} className="font-sans text-gray-600 font-light text-sm md:text-base leading-relaxed opacity-0">
-          Vibrant Spaces designs and executes warm, function-forward commercial zones that bridge professionalism with brand personality. We leverage our advanced 30,000 sq ft factory and structured execution process to deliver office and retail interiors on time and on budget, even under challenging conditions.
+          Retail and hospitality spaces shape customer satisfaction. Vibrant Spaces, in collaboration with sister company Srishti Design, studies the location, brand requirements, customer flow, and visual identity to create spaces that support the shopping and guest experience.
         </p>
       </section>
 
@@ -181,7 +181,7 @@ export default function CommercialInteriorsPage() {
         <div ref={addToAnimate} className="max-w-3xl mx-auto opacity-0">
           <h2 className="font-serif text-2xl md:text-4xl uppercase mb-6">Build Your Workspace</h2>
           <p className="font-sans text-gray-400 font-light text-sm md:text-base leading-relaxed mb-8">
-            Partner with Chennai's trusted commercial interior design company to draft, manufacture, and install modular offices, retail centers, or marriage halls.
+            Experience turnkey modular production powered by our state-of-the-art 30,000 sq. ft facility and advanced German machinery. Partner with Chennai's trusted commercial interior design company.
           </p>
           <Link
             href="/contact"

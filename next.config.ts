@@ -9,6 +9,10 @@ const nextConfig: NextConfig = {
       },
       {
         protocol: "https",
+        hostname: "vibrantspaces.in",
+      },
+      {
+        protocol: "https",
         hostname: "images.unsplash.com",
       }
     ],

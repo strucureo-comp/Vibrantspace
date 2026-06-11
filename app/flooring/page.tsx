@@ -76,7 +76,7 @@ export default function FlooringPage() {
         <div ref={heroRef} className="absolute inset-0 will-change-transform">
           <Image
             src="https://duchateau.com/wp-content/uploads/2025/07/du-guild-hardwood-flooring.webp"
-            alt="DUCHATEAU Hardwood Flooring"
+            alt="Vibrant Spaces Hardwood Flooring"
             fill
             className="object-cover opacity-70"
             priority
@@ -86,7 +86,7 @@ export default function FlooringPage() {
         <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent" />
         <div className="relative z-10 px-8 md:px-16 pb-16 max-w-4xl">
           <p className="text-[#C5A880] font-semibold text-[0.7rem] tracking-[0.3em] uppercase mb-4">
-            DU FLOORING
+            Vibrant Spaces Flooring
           </p>
           <h1 className="font-serif font-light text-[3.5rem] md:text-[5.5rem] uppercase leading-none text-white mb-6">
             Hardwood<br />Flooring
@@ -131,7 +131,7 @@ export default function FlooringPage() {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
               <div>
                 <span className="text-[#C5A880] font-semibold text-[0.7rem] tracking-[0.3em] uppercase block mb-5">
-                  THE DU DIFFERENCE
+                  THE VIBRANT DIFFERENCE
                 </span>
                 <h2 className="font-serif text-[2.5rem] md:text-[3.5rem] uppercase leading-none mb-8">
                   Naturally<br />Beautiful
@@ -139,7 +139,7 @@ export default function FlooringPage() {
               </div>
               <div>
                 <p className="font-sans text-gray-600 font-light text-sm md:text-base leading-relaxed mb-5">
-                  From our Guild collections — a doorway into DuChateau — to the pinnacle of craftsmanship found in Atelier, every piece represents an unwavering commitment to quality.
+                  From our Guild collections — a doorway into Vibrant Spaces — to the pinnacle of craftsmanship found in Atelier, every piece represents an unwavering commitment to quality.
                 </p>
                 <p className="font-sans text-gray-600 font-light text-sm md:text-base leading-relaxed">
                   We source exclusively from sustainably managed European White Oak forests. Our proprietary finishing processes — including wire brushing, hand scraping, and fuming — bring out the character inherent in every plank.

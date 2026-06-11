@@ -109,11 +109,11 @@ export default function TheTailoredSpace() {
           <div className="tailored-col-inner flex flex-col items-start md:items-end text-left md:text-right w-full">
             {/* Desktop heading */}
             <h2 className="hidden md:block font-serif text-[3.2em] xl:text-[3.7em] font-normal uppercase tracking-[-0.2rem] leading-[1em] text-black text-right">
-              THE <br />TAILORED <br />SPACE
+              WHAT IS <br />SPECIAL <br />ABOUT <br />VIBRANT <br />SPACES?
             </h2>
             {/* Mobile heading */}
             <h2 className="block md:hidden font-serif text-[2.5em] font-normal uppercase tracking-[-0.2rem] leading-[1em] text-black text-left">
-              THE TAILORED<br /> SPACE
+              WHAT IS SPECIAL ABOUT VIBRANT SPACES?
             </h2>
           </div>
         </div>
@@ -122,9 +122,9 @@ export default function TheTailoredSpace() {
         <div ref={col2Ref} className="flex flex-col items-start text-left mt-2 md:mt-4">
           <div className="tailored-col-inner flex flex-col items-start text-left w-full">
             <p className="font-serif text-[20px] md:text-[1.4em] font-normal leading-[1.3em] text-black/85 w-[90%] md:w-[51%] max-w-full">
-              We have a penchant for unreasonable beauty. Details that others might not notice, we obsess over. Our designs reflect who you are and inspire who you want to be.
+              Every project is treated as an opportunity to create a new design approach that improves dwelling, spatial awareness, and human interaction. Materials are chosen not only for function, but for their ability to transform a space into a versatile home.
               <br /><br />
-              At DUCHATEAU<sup className="text-[10px]">®</sup>, we champion a very specific vision: Yours. Welcome to your tailored space.
+              <strong>Highlights:</strong> State-of-the-art factory | Supreme quality | 5-year warranty on woodworks
             </p>
           </div>
         </div>

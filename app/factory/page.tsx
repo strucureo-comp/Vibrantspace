@@ -76,7 +76,7 @@ export default function FactoryPage() {
       {/* ── Hero ── */}
       <section className="relative w-full h-[60vh] bg-black overflow-hidden flex items-center justify-center">
         <Image
-          src="https://vibrantspaces.in/wp-content/uploads/2024/12/shutterstock_622608683.webp"
+          src="/assets/redesign/factory/028-shutterstock_622608683.webp"
           alt="Vibrant Spaces State of the Art Factory"
           fill
           className="object-cover opacity-60 animate-kenBurnsOut"
@@ -107,13 +107,16 @@ export default function FactoryPage() {
               Extravagant dreams and bold aspirations begin right here, on the factory floor. We take immense pride in presenting Vibrant Spaces’ state-of-the-art manufacturing facility spanning 30,000 sq. feet, where craftsmanship meets cutting-edge precision.
             </p>
             <p className="font-sans text-gray-600 font-light text-sm md:text-base leading-relaxed mb-8">
-              Equipped with advanced German machinery, this facility is the very heart of our operations. It is a dynamic ecosystem designed for productivity, creativity, and collaboration. It doubles as a creative hub where ideas are prototyped and perfected before reaching a site, calibrating modular production with high scalability.
+              Equipped with advanced German machinery, this facility is the heart of our operations. It doubles as a creative hub where ideas are prototyped and perfected before reaching a site, supporting higher standards of finish, longevity, and execution quality.
+            </p>
+            <p className="font-sans text-[#C5A880] font-bold text-xs uppercase tracking-widest">
+              Highlights: State-of-the-art factory | Supreme quality | 5-year warranty on woodworks
             </p>
           </div>
 
           <div ref={addToAnimate} className="relative h-[350px] md:h-[500px] w-full bg-gray-100 overflow-hidden opacity-0">
             <Image
-              src="https://vibrantspaces.in/wp-content/uploads/2024/04/03.jpg"
+              src="/assets/redesign/factory/027-1-88.jpg"
               alt="Advanced German Machinery"
               fill
               className="object-cover"

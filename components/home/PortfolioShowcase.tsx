@@ -1,6 +1,7 @@
 "use client";
 
 import { useRef, useEffect } from "react";
+import Link from "next/link";
 import { motion } from "framer-motion";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -189,30 +190,28 @@ export default function PortfolioShowcase() {
         <div ref={flagshipContentRef} className="relative z-10 flex flex-col items-center space-y-4 max-w-xl">
           <img
             src="/assets/du-logo-mark-white.svg"
-            alt="Duchateau Logo Mark"
+            alt="Vibrant Spaces Logo Mark"
             className="h-10 w-auto mb-4 opacity-90"
           />
           
           <p className="text-white font-serif font-normal text-[22px] md:text-[1.8em] leading-[1.3em] tracking-normal mb-1">
-            Our House is Yours
+            Where Dimensions Take Shape
           </p>
 
           <h2 className="text-white font-sans font-normal text-[2.5em] md:text-[3em] xl:text-[5em] uppercase tracking-[-0.2rem] leading-[0.9em] mb-1">
-            The Flagship
+            Chennai Office
           </h2>
 
           <h3 className="text-white font-serif font-normal text-[2.5em] md:text-[3em] xl:text-[5.6em] uppercase tracking-[-0.2rem] leading-[0.9em] mb-2">
-            San Diego
+            Anna Nagar
           </h3>
 
-          <a
-            href="https://calendly.com/duchateau-showroom/showroom-tour"
-            target="_blank"
-            rel="noopener noreferrer"
+          <Link
+            href="/contact"
             className="font-heading text-[0.9em] uppercase underline underline-offset-[5px] text-white hover:opacity-60 transition-opacity mt-4"
           >
-            Book a Tour
-          </a>
+            Schedule a Consultation
+          </Link>
         </div>
       </section>
 
@@ -222,19 +221,19 @@ export default function PortfolioShowcase() {
         className="w-full bg-black text-white py-10 px-8 lg:px-16 border-t border-white/5 select-none"
       >
         <div className="max-w-[1440px] mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
-          <a
-            href="https://duchateau.com/contact-information#flagship"
+          <Link
+            href="/about"
             className="font-heading text-[0.9em] uppercase underline underline-offset-[5px] text-white hover:opacity-60 transition-opacity"
           >
             Explore More
-          </a>
+          </Link>
           
           <div className="flex flex-row items-center gap-6">
             <span className="text-white/40 font-heading text-[10px] tracking-[0.2em] uppercase hidden md:inline">
               Location
             </span>
             <span className="text-white font-sans text-[0.9em] font-semibold leading-[1.3em] text-center md:text-left">
-              8480 Miralani Dr, San Diego, CA 92126, USA
+              D41, 4th Street, Anna Nagar East, Chennai - 600102
             </span>
           </div>
           
@@ -259,7 +258,7 @@ export default function PortfolioShowcase() {
             </p>
             <div className="flex items-center justify-center gap-6 font-heading text-[10px] tracking-[0.2em] uppercase">
               <a
-                href="https://www.instagram.com/duchateauofficial/"
+                href="https://www.instagram.com/vibrantspaces/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:opacity-75 transition-opacity"
@@ -267,7 +266,7 @@ export default function PortfolioShowcase() {
                 Instagram
               </a>
               <a
-                href="https://www.linkedin.com/company/duchateau"
+                href="https://www.linkedin.com/company/vibrantspaces"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:opacity-75 transition-opacity"
@@ -275,7 +274,7 @@ export default function PortfolioShowcase() {
                 Linkedin
               </a>
               <a
-                href="https://www.pinterest.com/duchateaufloors/"
+                href="https://www.pinterest.com/vibrantspaces/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:opacity-75 transition-opacity"

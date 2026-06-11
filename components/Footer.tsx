@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Link from "next/link";
 
 export default function Footer() {
   const [email, setEmail] = useState("");
@@ -18,54 +19,29 @@ export default function Footer() {
         {/* ── Top Grid: Links + Form ── */}
         <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-10">
           
-          {/* Customer */}
+          {/* Services */}
           <div className="flex flex-col space-y-4 text-left">
             <h3 className="text-black font-heading text-[10px] tracking-[0.2em] uppercase mb-1">
-              Customer
+              Services
             </h3>
             <ul className="space-y-3 text-xs font-light">
-              <li>
-                <a
-                  href="https://3739054.extforms.netsuite.com/app/site/crm/externalleadpage.nl/compid.3739054/.f?formid=18&h=AAFdikaIqz7SPlYpZyIF3GnXsglsyMVTYhLH4-IAIjYMNMzKJOQ&redirect_count=1&did_javascript_redirect=T"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="hover:text-black transition-colors"
-                >
-                  Register Your Floor
-                </a>
-              </li>
-              <li>
-                <a href="https://duchateau.com/contact-information/" className="hover:text-black transition-colors">
-                  Information
-                </a>
-              </li>
+              <li><Link href="/flooring" className="hover:text-black transition-colors">Full Home Interiors</Link></li>
+              <li><Link href="/wardrobe" className="hover:text-black transition-colors">Kitchen & Wardrobes</Link></li>
+              <li><Link href="/display" className="hover:text-black transition-colors">Construction & Renovation</Link></li>
+              <li><Link href="/commercial-interiors" className="hover:text-black transition-colors">Commercial Interiors</Link></li>
+              <li><Link href="/services" className="hover:text-black transition-colors">Landscape & Solar</Link></li>
             </ul>
           </div>
 
-          {/* Social */}
+          {/* Contact Details */}
           <div className="flex flex-col space-y-4 text-left">
             <h3 className="text-black font-heading text-[10px] tracking-[0.2em] uppercase mb-1">
-              Social
+              Contact
             </h3>
             <ul className="space-y-3 text-xs font-light">
-              {[
-                { label: "Instagram", href: "https://www.instagram.com/duchateauofficial/" },
-                { label: "Facebook", href: "https://www.facebook.com/duchateaufloors" },
-                { label: "Linkedin", href: "https://www.linkedin.com/company/duchateau" },
-                { label: "Pinterest", href: "https://www.pinterest.com/duchateaufloors/" },
-                { label: "Vimeo", href: "https://vimeo.com/duchateau" },
-              ].map(({ label, href }) => (
-                <li key={label}>
-                  <a
-                    href={href}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="hover:text-black transition-colors"
-                  >
-                    {label}
-                  </a>
-                </li>
-              ))}
+              <li><a href="mailto:hello@vibrantspaces.in" className="hover:text-black transition-colors">hello@vibrantspaces.in</a></li>
+              <li><a href="tel:+919543195431" className="hover:text-black transition-colors">+91 95431 95431</a></li>
+              <li className="pt-2 text-[10px] opacity-60">CHENNAI | BENGALURU | MUMBAI</li>
             </ul>
           </div>
 
@@ -76,21 +52,20 @@ export default function Footer() {
             </h3>
             <ul className="space-y-3 text-xs font-light">
               {[
-                { label: "Designer Collective", href: "https://duchateau.com/designer-collective/" },
-                { label: "Collaborations", href: "https://duchateau.com/collaborations/" },
-                { label: "DuGood", href: "https://duchateau.com/dugood/" },
-                { label: "Inspiration", href: "https://duchateau.com/inspiration/" },
-                { label: "Contact Information", href: "https://duchateau.com/contact-information/" },
-                { label: "Visit Our Showroom", href: "https://calendly.com/duchateau-showroom/showroom-tour", external: true },
-              ].map(({ label, href, external }) => (
+                { label: "About", href: "/about" },
+                { label: "Our Clients", href: "/our-clients" },
+                { label: "Our Homes", href: "/our-homes" },
+                { label: "Factory", href: "/factory" },
+                { label: "Sustainability", href: "/about#sustainability" },
+                { label: "Contact", href: "/contact" },
+              ].map(({ label, href }) => (
                 <li key={label}>
-                  <a
+                  <Link
                     href={href}
-                    {...(external ? { target: "_blank", rel: "noopener noreferrer" } : {})}
                     className="hover:text-black transition-colors"
                   >
                     {label}
-                  </a>
+                  </Link>
                 </li>
               ))}
             </ul>
@@ -103,9 +78,9 @@ export default function Footer() {
             </h3>
             <ul className="space-y-3 text-xs font-light">
               {[
-                { label: "Terms of Use", href: "https://duchateau.com/terms-of-use/" },
-                { label: "Sales Policy", href: "https://duchateau.com/internet-sales-policy/" },
-                { label: "Terms and Conditions", href: "https://duchateau.com/terms-and-conditions-of-use/" },
+                { label: "Terms of Use", href: "#" },
+                { label: "Privacy Policy", href: "#" },
+                { label: "Terms and Conditions", href: "#" },
               ].map(({ label, href }) => (
                 <li key={label}>
                   <a href={href} className="hover:text-black transition-colors">
@@ -159,23 +134,20 @@ export default function Footer() {
         {/* ── Bottom Bar & Logo Watermark ── */}
         <div className="mt-24 pt-8 border-t border-black/5 flex flex-col justify-start items-start gap-4 w-full">
           <p className="text-black/55 font-sans text-[12px] font-normal leading-[1.3em] text-left">
-            © 2026 DUCHATEAU.&nbsp;All rights reserved.
+            © 2026 Vibrant Spaces.&nbsp;All rights reserved.
           </p>
 
           <span className="font-serif italic text-[16px] text-black text-left pb-1 select-none pointer-events-none">
-            The Tailored Space
+            Where Dimensions Take Shape
           </span>
         </div>
+      </div>
 
-        {/* Giant Logo Watermark at bottom */}
-        <div className="w-full flex justify-center mt-6 opacity-100 pointer-events-none select-none">
-          <img
-            src="/assets/du-logo-large.svg"
-            alt="Duchateau Large Logo"
-            className="w-full h-auto"
-          />
-        </div>
-
+      {/* Giant Logo Watermark at bottom - Moved outside max-w container and sized to fit screen */}
+      <div className="w-full flex justify-center mt-12 pointer-events-none select-none">
+        <h2 className="text-[9.5vw] font-sans font-black uppercase tracking-[-0.02em] leading-none text-black whitespace-nowrap opacity-100">
+          Vibrant Spaces
+        </h2>
       </div>
     </footer>
   );

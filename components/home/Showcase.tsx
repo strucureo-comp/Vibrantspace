@@ -9,27 +9,27 @@ gsap.registerPlugin(ScrollTrigger);
 
 const PANELS = [
   {
-    title: "Guild",
+    title: "Full Home Interiors",
     img: "https://duchateau.com/wp-content/uploads/2025/11/Guild-lifestyle-couple-on-couch-no-carpet-smaller.jpg",
-    link: "https://duchateau.com/floors/guild/",
+    link: "/flooring",
     text: "Discover More"
   },
   {
-    title: "Signature",
+    title: "Luxury Interiors",
     video: "https://duchateau.com/wp-content/uploads/2025/10/GettyImages-1453128070-1080p.mp4",
-    link: "https://duchateau.com/floors/signature/",
+    link: "/our-homes",
     text: "Discover More"
   },
   {
-    title: "Atelier",
+    title: "Bespoke Furniture",
     video: "https://duchateau.com/wp-content/uploads/2026/02/Atelier-Square-loop-for-home-page2.mp4",
-    link: "https://duchateau.com/atelier-series/",
+    link: "/furniture",
     text: "Discover More"
   },
   {
-    title: "Bespoke",
+    title: "Design & Consulting",
     img: "https://duchateau.com/wp-content/uploads/2025/10/P_Chaumont_Vernal_Luganno_1.jpg",
-    link: "#",
+    link: "/contact",
     text: "COMING SOON",
     isBespoke: true
   },

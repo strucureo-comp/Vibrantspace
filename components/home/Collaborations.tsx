@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useEffect, useRef } from "react";
+import Link from "next/link";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
@@ -64,19 +65,19 @@ export default function Collaborations() {
         <div ref={textRef} className="flex flex-col md:flex-row justify-between items-start md:items-end gap-6 w-full">
           <div className="flex flex-col text-left">
             <h3 className="font-serif text-[1.5em] md:text-[1.8em] xl:text-[2em] font-normal uppercase tracking-[-0.066rem] leading-[0.9em] text-black">
-              Collaborations
+              Featured Project
             </h3>
             <h2 className="font-serif text-[2.3em] md:text-[2.8em] xl:text-[4em] font-normal uppercase tracking-[-0.2rem] leading-[0.9em] text-black mt-2">
-              Martyn Lawrence Bullard
+              AgniKul Cosmos, IIT Madras
             </h2>
           </div>
           
-          <a
-            href="https://duchateau.com/collaborations/"
+          <Link
+            href="/our-homes"
             className="font-heading text-[0.9em] uppercase underline underline-offset-[5px] hover:opacity-60 transition-opacity"
           >
-            Meet your collaborator
-          </a>
+            View Project
+          </Link>
         </div>
 
         {/* Video Player Wrapper */}

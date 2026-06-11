@@ -15,72 +15,92 @@ const SERVICES = [
     title: "Modular Kitchen",
     desc: "Compact, ergonomic, and stylish layouts suited for Indian homes with options for high heat and oil resistance.",
     href: "/kitchen",
-    img: "https://vibrantspaces.in/wp-content/uploads/2024/04/03.jpg"
+    img: "/assets/redesign/services/002-Kitchen.jpg"
   },
   {
     title: "Wardrobes & Lofts",
     desc: "Bespoke sliding, hinged, and bi-fold wardrobes, including floor-to-ceiling Armadio structures (up to 9.5 feet).",
-    href: "/wardrobe",
-    img: "https://vibrantspaces.in/wp-content/uploads/2024/04/02.jpeg"
+    href: "/wardrobe" ,
+    img: "/assets/redesign/services/003-Wardrobe.jpg"
   },
   {
-    title: "Pooja Room",
-    desc: "Traditional detailing, custom carving, and Lord Krishna story themes integrated seamlessly into modern spaces.",
-    href: "/pooja-unit",
-    img: "https://vibrantspaces.in/wp-content/uploads/2024/04/01.jpg"
-  },
-  {
-    title: "Display & Storage",
-    desc: "TV units, bar displays, bookshelves, and creative space separators designed to elevate empty walls.",
+    title: "Construction & Transformation",
+    desc: "Turnkey home construction and renovation services, from conceptualization to final handover with multiple quality checks.",
     href: "/display",
-    img: "https://vibrantspaces.in/wp-content/uploads/2020/12/shutterstock_645138688-2opt.jpg"
+    img: "/assets/redesign/services/004-Construction.jpg"
   },
   {
-    title: "Movable Furniture & Soft Furnishing",
-    desc: "Modern, statement sofas, cots with custom headboards, and side tables constructed with durable raw materials.",
-    href: "/furniture",
-    img: "https://vibrantspaces.in/wp-content/uploads/2019/09/marbel.jpg"
-  },
-  {
-    title: "Bathroom & Wellness Zone",
-    desc: "Water-therapeutic spaces with customized vanity counters, high-end tiling, and quiet spa-like isolation setups.",
-    href: "/wellness-zones",
-    img: "https://vibrantspaces.in/wp-content/uploads/2019/09/oneside-01.png"
-  },
-  {
-    title: "Commercial Interiors",
-    desc: "Ergonomic, open-plan workspaces, retail stores, and hospitality environments that translate brand identity into physical spaces.",
+    title: "Commercial & Retail",
+    desc: "Designing futuristic offices and retail spaces like AgniKul Cosmos, focused on brand identity and customer flow.",
     href: "/commercial-interiors",
-    img: "https://vibrantspaces.in/wp-content/uploads/2024/04/04.jpg"
+    img: "/assets/redesign/services/005-Commercial.jpg"
+  },
+  {
+    title: "Hospitality & Retail",
+    desc: "Restaurants and retail stores designed with comfort, ambience, and guest experience in mind.",
+    href: "/commercial-interiors",
+    img: "/assets/redesign/commercial/001-KuberMantra.jpg"
+  },
+  {
+    title: "Landscape Design",
+    desc: "Extending design beyond four walls with gardens, pools, and relaxing outdoor spaces that bring life to modern architecture.",
+    href: "/services",
+    img: "/assets/redesign/services/011-Landscape.jpg"
+  },
+  {
+    title: "Solar Solutions",
+    desc: "Complete solar services from concept to commissioning for residential, commercial, and industrial projects.",
+    href: "/services",
+    img: "/assets/redesign/services/006-Solar.jpg"
   },
   {
     title: "Factory Manufacturing",
-    desc: "Turnkey modular production powered by our 30,000 sq. ft facility and advanced German machinery.",
+    desc: "Turnkey modular production powered by our state-of-the-art factory and advanced German machinery.",
     href: "/factory",
-    img: "https://vibrantspaces.in/wp-content/uploads/2024/12/shutterstock_622608683.webp"
+    img: "/assets/redesign/factory/028-shutterstock_622608683.webp"
   }
 ];
 
 const STEPS = [
   {
     num: "01",
-    title: "Consultation & Visualisation",
-    desc: "We simulate your home's layout by understanding your exact preferences and building detailed 3D designs."
+    title: "Schedule a consultation",
+    desc: "Speak with the team and schedule a meeting to discuss requirements and aspirations."
   },
   {
     num: "02",
-    title: "Core & Shell Designing",
-    desc: "We bridge the gap between architecture and interiors to establish the solid base canvas for your space."
+    title: "Meet the designer",
+    desc: "Share home dimensions, lifestyle, needs, preferences, and budget expectations."
   },
   {
     num: "03",
-    title: "Fitouts & Furniture",
-    desc: "Perfection is in the details, from the handles on your doors to custom-crafted bespoke furniture units."
+    title: "Finalize design options with quote",
+    desc: "Pay a retainer, review 3D rendered drawings, and receive the final quote."
   },
   {
     num: "04",
-    title: "Styling & Decor",
-    desc: "Be it mid-century modern or bohemian chic, we style the environment exactly to fit your aesthetic preference."
+    title: "Pay 40% to commence the project",
+    desc: "Advance payment is used to source materials and begin work."
+  },
+  {
+    num: "05",
+    title: "Begin on-site execution",
+    desc: "Engineers and interior designers coordinate execution at site."
+  },
+  {
+    num: "06",
+    title: "Pay 45% before completion",
+    desc: "Payment is made near completion after project inspection."
+  },
+  {
+    num: "07",
+    title: "Execution completed",
+    desc: "The site is completed, cleaned, cleared, and handed over."
+  },
+  {
+    num: "08",
+    title: "Pay remaining 5%",
+    desc: "Final payment is made after completion and client satisfaction."
   }
 ];
 

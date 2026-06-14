@@ -15,49 +15,49 @@ const SERVICES = [
     title: "Modular Kitchen",
     desc: "Compact, ergonomic, and stylish layouts suited for Indian homes with options for high heat and oil resistance.",
     href: "/kitchen",
-    img: "/assets/redesign/services/002-Kitchen.jpg"
+    img: "/assets/redesign/services/011-DStorage-200x150.png"
   },
   {
     title: "Wardrobes & Lofts",
     desc: "Bespoke sliding, hinged, and bi-fold wardrobes, including floor-to-ceiling Armadio structures (up to 9.5 feet).",
     href: "/wardrobe" ,
-    img: "/assets/redesign/services/003-Wardrobe.jpg"
+    img: "/assets/redesign/services/012-DStorage-400x300.png"
   },
   {
     title: "Construction & Transformation",
     desc: "Turnkey home construction and renovation services, from conceptualization to final handover with multiple quality checks.",
     href: "/display",
-    img: "/assets/redesign/services/004-Construction.jpg"
+    img: "/assets/redesign/services/013-DStorage-600x450.png"
   },
   {
     title: "Commercial & Retail",
     desc: "Designing futuristic offices and retail spaces like AgniKul Cosmos, focused on brand identity and customer flow.",
     href: "/commercial-interiors",
-    img: "/assets/redesign/services/005-Commercial.jpg"
+    img: "/assets/redesign/services/014-DStorage-800x600.png"
   },
   {
     title: "Hospitality & Retail",
     desc: "Restaurants and retail stores designed with comfort, ambience, and guest experience in mind.",
     href: "/commercial-interiors",
-    img: "/assets/redesign/commercial/001-KuberMantra.jpg"
+    img: "/assets/redesign/services/015-False-Ceilings.jpg"
   },
   {
     title: "Landscape Design",
     desc: "Extending design beyond four walls with gardens, pools, and relaxing outdoor spaces that bring life to modern architecture.",
     href: "/services",
-    img: "/assets/redesign/services/011-Landscape.jpg"
+    img: "/assets/redesign/services/016-False-Ceilings-400x400.jpg"
   },
   {
     title: "Solar Solutions",
     desc: "Complete solar services from concept to commissioning for residential, commercial, and industrial projects.",
     href: "/services",
-    img: "/assets/redesign/services/006-Solar.jpg"
+    img: "/assets/redesign/services/017-False-Ceilings-600x600.jpg"
   },
   {
     title: "Factory Manufacturing",
     desc: "Turnkey modular production powered by our state-of-the-art factory and advanced German machinery.",
     href: "/factory",
-    img: "/assets/redesign/factory/028-shutterstock_622608683.webp"
+    img: "/assets/redesign/services/018-False-Ceilings-800x800.jpg"
   }
 ];
 

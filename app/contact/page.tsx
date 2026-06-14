@@ -52,7 +52,7 @@ export default function ContactPage() {
       {/* ── Hero ── */}
       <section className="relative w-full h-[45vh] bg-black overflow-hidden flex items-end justify-start pt-20">
         <Image
-          src="https://vibrantspaces.in/wp-content/uploads/2020/12/shutterstock_645138688-2opt.jpg"
+          src="/assets/redesign/works/060-shutterstock_645138688-2opt.jpg"
           alt="Contact Vibrant Spaces"
           fill
           className="object-cover opacity-40"

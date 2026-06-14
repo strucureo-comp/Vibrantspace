@@ -137,17 +137,39 @@ export default function OurHomesPage() {
             >
               <div className="relative h-[300px] w-full overflow-hidden bg-gray-200">
                 <Image
-                  src={
-                    idx % 10 === 0 ? "/assets/redesign/works/010-DSC2680-1.jpg" :
-                    idx % 10 === 1 ? "/assets/redesign/works/019-shutterstock_645138688-2.jpg" :
-                    idx % 10 === 2 ? "/assets/redesign/works/004-1-2.jpg" :
-                    idx % 10 === 3 ? "/assets/redesign/works/005-2-2.jpg" :
-                    idx % 10 === 4 ? "/assets/redesign/works/006-3-1.jpg" :
-                    idx % 10 === 5 ? "/assets/redesign/works/007-4-3.jpg" :
-                    idx % 10 === 6 ? "/assets/redesign/works/072-01.jpg" :
-                    idx % 10 === 7 ? "/assets/redesign/works/073-02.jpeg" :
-                    idx % 10 === 8 ? "/assets/redesign/works/074-03.jpg" :
-                    "/assets/redesign/works/075-04.jpg"
+                                    src={
+                    [
+                      "/assets/redesign/works/001-shutterstock_622608683.jpg",
+                      "/assets/redesign/works/002-marbel.jpg",
+                      "/assets/redesign/works/003-oneside-01.png",
+                      "/assets/redesign/works/004-1-2.jpg",
+                      "/assets/redesign/works/005-2-2.jpg",
+                      "/assets/redesign/works/006-3-1.jpg",
+                      "/assets/redesign/works/007-4-3.jpg",
+                      "/assets/redesign/works/008-06-1.jpg",
+                      "/assets/redesign/works/009-06-1-400x400.jpg",
+                      "/assets/redesign/works/010-DSC2680-1.jpg",
+                      "/assets/redesign/works/011-DSC2680-1-1024x683.jpg",
+                      "/assets/redesign/works/012-DSC2680-1-1200x800.jpg",
+                      "/assets/redesign/works/013-DSC2680-1-200x133.jpg",
+                      "/assets/redesign/works/014-DSC2680-1-300x200.jpg",
+                      "/assets/redesign/works/015-DSC2680-1-400x267.jpg",
+                      "/assets/redesign/works/016-DSC2680-1-600x400.jpg",
+                      "/assets/redesign/works/017-DSC2680-1-768x512.jpg",
+                      "/assets/redesign/works/018-DSC2680-1-800x533.jpg",
+                      "/assets/redesign/works/019-shutterstock_645138688-2.jpg",
+                      "/assets/redesign/works/020-Black-2.jpg",
+                      "/assets/redesign/works/021-Glass-Mosaic-Tiles-2.jpg",
+                      "/assets/redesign/works/022-Glass-Mosaic-Tiles-2-1200x675.jpg",
+                      "/assets/redesign/works/023-Glass-Mosaic-Tiles-2-400x225.jpg",
+                      "/assets/redesign/works/024-Glass-Mosaic-Tiles-2-600x338.jpg",
+                      "/assets/redesign/works/025-Glass-Mosaic-Tiles-2-800x450.jpg",
+                      "/assets/redesign/works/026-Grey-2.jpg",
+                      "/assets/redesign/works/027-icon_003.png",
+                      "/assets/redesign/works/028-Lacquered-Glass-1.jpg",
+                      "/assets/redesign/works/029-Lacquered-Glass-1-1200x675.jpg",
+                      "/assets/redesign/works/030-Lacquered-Glass-1-400x225.jpg"
+                    ][idx % 30]
                   }
                   alt={home.name}
                   fill

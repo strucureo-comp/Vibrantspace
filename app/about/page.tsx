@@ -77,20 +77,20 @@ export default function AboutPage() {
           </h2>
           <div className="font-sans text-gray-600 font-light space-y-6 text-sm md:text-base leading-relaxed">
             <p>
-              Vibrant Spaces is a multidisciplinary practice working across architecture, interior design, construction, and factory-made production. The company has experience across residential, office, education, healthcare, science, and retail projects.
+              We are into a multi-disciplinary practice from architecture, interior design, construction and a state of the art production factory with German machineries, a team of professionals drawn from every team. We have a solid base in architecture, building a strong reputation across numerous typologies— including office, education, residential, healthcare, science and retail projects.
             </p>
             <p>
-              The company has built a reputation for crafted homes and interiors that serve discerning clients. Its production factory supports higher standards of finish, longevity, and execution quality. We thrive on providing a personable service that delivers the highest standard of finishes to bring your design to reality.
+              Over the past ten years we have established an enviable reputation for creating exquisitely crafted homes and interiors, to meet and exceed the expectations of the most discerning clients. Now with the new venture of world class factory set up, our approach seeks to deliver the highest design standards, which encompass the finest aesthetic approach with and instilled longevity. We thrive on providing a personable service that delivers the highest standard of finishes to bring your design to reality.
             </p>
             <p>
-              Vibrant Spaces helps clients turn the vision of a home into reality through expertise, timeliness, transparency, and trust. With over 2500 projects under our belt, we understand your needs and tastes to fulfill what has been a lifelong dream.
+              Your vision of how your house should be needs the hands of experts to be sculpted into reality. With over 2500 projects under our belt, we understand your needs and tastes to fulfill what has been a lifelong dream. We go beyond the promise of expertise and also deliver on timeliness, transparency and trustability.
             </p>
           </div>
         </div>
         <div ref={addToAnimate} className="relative h-[400px] md:h-[550px] w-full bg-gray-100 overflow-hidden opacity-0">
           <Image
-            src="/assets/redesign/about/090-Group-photo_compressed-1024x525.jpg"
-            alt="Vibrant Spaces Office"
+            src="/assets/redesign/factory/027-1-88.jpg"
+            alt="State of the art production factory"
             fill
             className="object-cover"
           />
@@ -123,7 +123,7 @@ export default function AboutPage() {
               <h3 className="font-serif text-2xl uppercase mb-2">Venkat Krishnan</h3>
               <p className="font-sans text-xs tracking-widest text-[#C5A880] uppercase mb-6">Company Head</p>
               <p className="font-sans text-sm text-gray-400 font-light leading-relaxed max-w-md">
-                Focused on maximizing client value through sustainability, quality, and practical design. He is tireless in his approach, clinical with his methods, and always available to guide the team when his insights are needed. Sustainability, quality and value are his guiding principles.
+                Leading from the front, Our Head Venkat Krishnan is all about maximising the value that we deliver to our clients. He is tireless in his approach, clinical with his methods, and always available to guide the team when his insights are needed. Sustainability, quality and value are his guiding principles – as is making your space work for you instead of the other way around. A valued colleague and a wonderful friend, Mr. Venkat inspires us all.
               </p>
             </div>
 
@@ -140,7 +140,7 @@ export default function AboutPage() {
               <h3 className="font-serif text-2xl uppercase mb-2">Dr. Gautami Tadimalla</h3>
               <p className="font-sans text-xs tracking-widest text-[#C5A880] uppercase mb-6">Partner & Creative Consultant</p>
               <p className="font-sans text-sm text-gray-400 font-light leading-relaxed max-w-md">
-                A film personality, director, photographer, activist, and interior designer whose creative input has contributed to high-end projects. Her creative flair has elevated some of our high-end projects to true perfection, bringing unmatched expertise and an eye for detail.
+                A prolific presence on the silver screen. A director and photographer. An activist and social worker. An exemplary human being. Smt. Gautami Tadimalla has a long list of achievements to her name. The latest feather in her cap comes from being an interior designer whose creative flair has elevated some of our high-end projects to true perfection. With unmatched expertise and an eye for detail, she is a valuable colleague and an asset to our team!
               </p>
             </div>
           </div>
@@ -166,7 +166,7 @@ export default function AboutPage() {
               Craftsmanship & Precision Driven
             </h2>
             <p className="font-sans text-gray-600 font-light text-sm md:text-base leading-relaxed mb-6">
-              Vibrant Spaces is powered by experienced professionals, including carpenters, artisans, designers, engineers, and project execution specialists. The team focuses on precision, care, function, finish quality, and on-time delivery.
+              Vibrant Spaces is powered by a team of experienced professionals, each bringing a unique skill set to the table. From our skilled carpenters who craft bespoke furniture pieces to our talented artisans who add intricate finishing touches, every project is executed with precision and care.
             </p>
             <p className="font-sans text-gray-600 font-light text-sm md:text-base leading-relaxed">
               Driven by passion and a shared commitment to excellence, our team works seamlessly together, ensuring that each design is not only functional but also a work of art. The company is run like a well-oiled machine, with every member playing a key role in delivering exceptional results, on time and on budget.
@@ -187,7 +187,7 @@ export default function AboutPage() {
                 Go Green: IGBC Certified Designs
               </h2>
               <p className="font-sans text-gray-600 font-light text-sm md:text-base leading-relaxed mb-8">
-                As a proud member of the Indian Green Building Council (IGBC), our team of top interior designers in Chennai employ green practices in the building and interior sector. We ensure the optimal use of natural resources and work towards creating spaces that are water and energy-efficient.
+                As a proud member of the IGBC, our team of top interior designers in Chennai employ green practices in the building and interior sector. We ensure the optimal use of natural resources and work towards creating spaces that are water and energy-efficient. More importantly, our methods enhance the health, happiness and overall well-being of our occupants. In line with our commitment to a sustainable future, we try to incorporate eco-friendly materials in our interiors.
               </p>
               
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -242,10 +242,10 @@ export default function AboutPage() {
       <section className="py-20 bg-black text-center text-white px-8">
         <div ref={addToAnimate} className="max-w-3xl mx-auto opacity-0">
           <h2 className="font-serif text-3xl md:text-5xl uppercase tracking-wider mb-6">
-            Congratulations on Buying a New Home!
+            Congratulations for buying a new home
           </h2>
           <p className="font-sans text-gray-400 font-light text-sm md:text-base leading-relaxed mb-10">
-            Interior designing is so much more than shopping for furniture online. We analyze color, lighting, room size, scale, and placement to give you the best solutions. Invest one time rightly and be happy.
+            Interior designing is so much more than shopping for furniture and decor online. They may all look great on your screen, but how can you tell if they are the best fit for your home? You can use a team of experts for that task. We analyse the colour, lighting, room size, scale, and placement and give you the best solutions.
           </p>
           <Link
             href="/contact"

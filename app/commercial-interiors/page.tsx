@@ -14,37 +14,37 @@ const PROJECTS = [
   {
     title: "AgniKul Cosmos HQ",
     desc: "A futuristic 13,000 sq. ft headquarters at IIT Madras. Blends sleek Star Trek-like aesthetics with high-performance workspaces using materials that reflect the aerospace brand. Inaugurated by senior leaders including Shri N. Chandrasekaran and Shri S. Somanath.",
-    img: "/assets/redesign/works/070-Agnikul-Home-Carousel-scaled.jpg",
+    img: "/assets/redesign/commercial/002-Black-2.jpg",
     badge: "Aerospace & Tech"
   },
   {
     title: "Make My Chairs, Kilpauk",
     desc: "A customizable chair retail store designed in collaboration with Srishti Design. Display products clearly while creating a spacious, welcoming, and colorful experience for customers.",
-    img: "/assets/redesign/commercial/015-MakeMyChairs.jpg",
+    img: "/assets/redesign/commercial/003-Glass-Mosaic-Tiles-2.jpg",
     badge: "Retail"
   },
   {
     title: "Kuber Mantra, Kilpauk",
     desc: "A 100-seater, 3500 sq. ft. restaurant designed in collaboration with Srishti Design. Accommodates many customers while preserving a family-friendly atmosphere and privacy.",
-    img: "/assets/redesign/commercial/001-KuberMantra.jpg",
+    img: "/assets/redesign/commercial/004-Glass-Mosaic-Tiles-2-1200x675.jpg",
     badge: "Hospitality"
   },
   {
     title: "Bikers Den, Royapettah",
     desc: "A community-focused space for bikers, using lighting and design to create a sense of atmosphere, mystery, and belonging. A hub for the biking community in Chennai.",
-    img: "/assets/redesign/commercial/021-BikersDen.jpg",
+    img: "/assets/redesign/commercial/005-Glass-Mosaic-Tiles-2-400x225.jpg",
     badge: "Retail & Community"
   },
   {
     title: "Kites, Anna Nagar",
     desc: "A vegetarian restaurant designed in collaboration with Srishti Design. A welcoming, well-lit space for friends, family, and date nights, with an ambience suited for social sharing.",
-    img: "/assets/redesign/commercial/007-KitesAnnaNagar.jpg",
+    img: "/assets/redesign/commercial/006-Glass-Mosaic-Tiles-2-600x338.jpg",
     badge: "Hospitality"
   },
   {
     title: "Access Health Care Cafe",
     desc: "A warm, well-lit place of rest inside Access Health Care, designed for patients, attendants, and doctors to find reprieve and comfort.",
-    img: "/assets/redesign/commercial/023-AccessHealthcare Ambattur.jpg",
+    img: "/assets/redesign/commercial/007-Glass-Mosaic-Tiles-2-800x450.jpg",
     badge: "Healthcare Hospitality"
   }
 ];
@@ -94,7 +94,7 @@ export default function CommercialInteriorsPage() {
       {/* ── Hero ── */}
       <section className="relative w-full h-[60vh] bg-black overflow-hidden flex items-center justify-center">
         <Image
-          src="/assets/redesign/commercial/011-Retail02-18.png"
+          src="/assets/redesign/commercial/001-marbel.jpg"
           alt="Commercial and Retail Interiors"
           fill
           className="object-cover opacity-60 animate-kenBurnsOut"

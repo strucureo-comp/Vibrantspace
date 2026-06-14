@@ -72,13 +72,11 @@ export default function Navbar() {
     <>
       <nav
         onMouseLeave={() => handleTabHover(null)}
-        className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 border-b transform ${
-          isVisible ? "translate-y-0" : "-translate-y-full"
-        } ${
-          isLightNav
+        className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 border-b transform ${isVisible ? "translate-y-0" : "-translate-y-full"
+          } ${isLightNav
             ? "bg-white border-black/5 text-black"
             : "bg-transparent border-transparent text-white"
-        }`}
+          }`}
       >
         {/* Main Navbar Bar */}
         <div className="max-w-[1600px] mx-auto px-6 h-[40px] grid grid-cols-[1fr_auto_1fr] items-center">
@@ -91,19 +89,16 @@ export default function Navbar() {
               aria-label="Toggle Menu"
             >
               <span
-                className={`block h-[1px] w-6 transition-all duration-300 ${
-                  isLightNav ? "bg-black" : "bg-white"
-                } ${mobileMenuOpen ? "rotate-45 translate-y-2" : ""}`}
+                className={`block h-[1px] w-6 transition-all duration-300 ${isLightNav ? "bg-black" : "bg-white"
+                  } ${mobileMenuOpen ? "rotate-45 translate-y-2" : ""}`}
               />
               <span
-                className={`block h-[1px] w-6 transition-all duration-300 ${
-                  isLightNav ? "bg-black" : "bg-white"
-                } ${mobileMenuOpen ? "opacity-0" : ""}`}
+                className={`block h-[1px] w-6 transition-all duration-300 ${isLightNav ? "bg-black" : "bg-white"
+                  } ${mobileMenuOpen ? "opacity-0" : ""}`}
               />
               <span
-                className={`block h-[1px] w-6 transition-all duration-300 ${
-                  isLightNav ? "bg-black" : "bg-white"
-                } ${mobileMenuOpen ? "-rotate-45 -translate-y-2" : ""}`}
+                className={`block h-[1px] w-6 transition-all duration-300 ${isLightNav ? "bg-black" : "bg-white"
+                  } ${mobileMenuOpen ? "-rotate-45 -translate-y-2" : ""}`}
               />
             </button>
 
